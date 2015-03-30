@@ -44,6 +44,17 @@ body{
   	padding-top: 2px;
   	padding-bottom: 2px;
 }
+.index-post-heading {
+	border: 1px solid black;
+    font-size: 0.75rem;
+	width:88%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-right: 1em;
+	margin-top:20px;
+  	padding-top: 2px;
+  	padding-bottom: 2px;
+}
 .full-width{
 	width:100%;
 }
@@ -66,6 +77,9 @@ body{
     .body-column {
         padding-left: 0px !important;
     }
+    h5{
+    	padding-left: 0px;
+    }
 
     .post-heading {
 
@@ -75,12 +89,20 @@ body{
 		  margin-left: 6%;
 		  margin-right: 0;
     }
+    .post-preview{
+    	padding-left:8%;
+    	padding-right:0px;
+    }
+    .index-post-heading {
+
+         padding-left:0px;
+        padding-right:0px;
+        width:100%;
+		  margin-left: 0%;
+		  margin-right: 0;
+    }
      .full-width{
     	width:88%;
-    }
-    .post-preview {
-      padding-left: 3%;
-      padding-right: 3%;
     }
     .indent {
 	  margin-left: 4.2%;
