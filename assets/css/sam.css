@@ -66,15 +66,26 @@ body{
     .body-column {
         padding-left: 0px !important;
     }
+
     .post-heading {
 
-        width:100%;
-        padding-left:0px;
+         padding-left:0px;
         padding-right:0px;
+
+		  margin-left: 6%;
+		  margin-right: 0;
+    }
+     .full-width{
+    	width:88%;
     }
     .post-preview {
       padding-left: 3%;
       padding-right: 3%;
     }
+    .indent {
+	  margin-left: 4.2%;
+	  margin-right: 0%;
+	  padding-right: 10%;
+}
 
 }
