@@ -1,0 +1,27 @@
+{{!< default}}
+
+{{! The main content area on the homepage }}
+
+    <div class="large-12 medium-12 hide-for-small columns adjust dn-odd-parent"></div>
+    <div class="large-12 medium-12 hide-for-small columns adjust dn-even-parent"></div>
+    <div class="small-12 columns adjust dn-single-column"></div>
+    
+    {{#foreach posts}}
+    <div class="rows">
+    <article class="large-12 medium-12 small-12 columns" id="post-{{id}}">
+        <header class="post-header">
+            <div class="rows">
+                <div class="large-12 medium-12 small-12 columns">
+                  {{!-- <span class="sep-decoration">░░</span><span class="author">by {{author.name}}</span> --}}
+                 <div class=" post-heading"><span> <span class="author">sam hains @ </span>  <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD - MMM - YYYY"}}</time></span></div>
+                </div>
+            </div>
+        </header>
+        <div class="rows">
+        <section class="large-12 medium-12 small-12 columns post-preview">
+            <h2 class="post-title"><a href="{{url}}" class="dn-post-link">{{{title}}}</a></h2>
+            {{content words="60"}}
+        </section></div>
+    </article></div>
+    
+    {{/foreach}}

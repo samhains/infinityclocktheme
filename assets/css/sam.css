@@ -1,0 +1,63 @@
+body{
+	background-color:#F1F1F1;
+	font-family: "Apercu Mono Regular", 'Andale Mono', monospace;
+}
+.dn-sep{
+	font-weight:100;
+    font-size: 1rem;
+    float:left;
+    transform: scaleX(4);
+   /* float:left;*/
+}
+.author{
+    font-style: italic;
+    padding-left:15px;
+    color: rgb(134, 138, 140);
+}
+
+.sep-decoration{
+	float:left;
+	transform: scaleX(4);
+	margin-left:20px;
+
+}
+.post-title a {
+  font-family: "Apercu Mono Regular", 'Andale Mono', monospace;
+  font-size: 22pt;
+  color: rgb(180, 212, 239);
+
+}
+.post-title {
+
+  color: rgb(180, 212, 239);
+
+}
+.remove-padding{
+	padding-left: 0px;
+	padding-right:0px;
+}
+.post-heading {
+	border: 1px solid black;
+    font-size: 0.75rem;
+	width:88%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+  	padding-top: 2px;
+  	padding-bottom: 2px;
+}
+.full-width{
+	width:100%;
+}
+.dn-blog-name-sz {
+  color: rgb(134, 138, 140);
+}
+
+
+.post-preview{
+	padding-left: 10%;
+	padding-right:10%;
+}
+.indent{
+	margin-left:0%;
+}
