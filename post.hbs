@@ -1,10 +1,10 @@
 {{!< default}}
-    
+
 <div class="large-12 medium-12 small-12 columns adjust dn-post-c">
-    <article class="large-12 medium-12 small-12 columns {{post_class}} adjust dn-no-sps" id="post-{{id}}"> 
+    <article class="large-12 medium-12 small-12 columns {{post_class}} adjust dn-no-sps" id="post-{{id}}">
 
         {{#post}}
-        
+
         <header class="post-header">
             <div class="rows">
                 <div class="large-12 medium-12 small-12 columns remove-padding">
@@ -16,18 +16,18 @@
 
         <section class="large-12 medium-12 small-12 columns indent">
             <h2 class="post-title">{{{title}}}</h2>
-            
+
             <section class="post-content">
                 {{content}}
             </section>
-            
+
             <span class="post-meta">
                 {{#if tags}}
                     <strong>tagged with: </strong>{{tags}}
                 {{/if}}
             </span>
         </section>
-            
+
         <section class="large-12 medium-12 small-12 columns no-sp">
             <div class="dn-sep-end">&#8221;</div>
             <div class="large-6 medium-6 small-12 columns no-sp post-footer">
@@ -45,13 +45,13 @@
                 {{/if}}
             </div>
             <div class="large-6 medium-6 small-12 columns no-sp post-footer footer-right">
-                
+
                 <div class="dn-small-back show-for-small">
                     <a href="/" class="older-posts dn-back-to-posts" data-pjax="">BACK TO POSTS</a>
                 </div>
             </div>
         </section>
-        
+
         <section class="large-12 medium-12 small-12 columns no-sp disqus-comments" style="margin-top: 3rem">
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
@@ -65,11 +65,11 @@
                             });
                             loadDisqus = false;
                         }
-        
+
                         var disqus_shortname = disqusShortName;
                         var disqus_identifier = '{{id}}';
                         var disqus_url = location.protocol + '//' + window.location.host + '{{url}}#!/{{id}}';
-                        
+
                         if (loadDisqus) {
                             (function() {
                                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -82,7 +82,7 @@
         </section>
 
         {{/post}}
-    
+
     </article>
 </div>
 

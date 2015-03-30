@@ -1072,6 +1072,14 @@ a.subscribe {
     .body-column {
         padding-left: 50px !important;
     }
+    .post-heading {
+
+        width:100%;
+    }
+    .post-preview {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
 
 }
 

@@ -16,9 +16,7 @@ body{
 }
 
 .sep-decoration{
-	float:left;
 	transform: scaleX(4);
-	margin-left:20px;
 
 }
 .post-title a {
@@ -55,9 +53,28 @@ body{
 
 
 .post-preview{
-	padding-left: 10%;
+	padding-left:  8.7%;
 	padding-right:10%;
 }
 .indent{
 	margin-left:0%;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    .body-column {
+        padding-left: 0px !important;
+    }
+    .post-heading {
+
+        width:100%;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .post-preview {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
 }

@@ -65,13 +65,7 @@
                     <span class="dn-time">00:00 AM</span>
                 </div>
                 <hr class="dn-msep"></hr>
-                <div class="dn-menu-sec dn-nav-menu">
-                    {{#if post}}
-                        {{> backfrompost}}
-                    {{else}}
-                        {{pagination}}
-                    {{/if}}
-                </div>
+
             </div>
         </div>
     </div>
@@ -81,13 +75,7 @@
             {{!-- <a class="night-day-action"><span class="dn-clock"></span></a> --}}
             <span class="dn-time">00:00 AM</span>
         </div>
-        <div class="small-6 columns dn-small-pagination dn-nav-menu">
-            {{#if post}}
-                {{> backfrompost}}
-            {{else}}
-                {{pagination}}
-            {{/if}}
-        </div>
+    
     </div>
     
     <div class="row show-for-small dn-blog-info-small dn-initial hidden">
@@ -99,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div class="large-12 medium-12 small-12 columns dn-small-menu no-sp">
+        <div class="large-12 medium-12 small-12 columns no-sp">
             <ul class="side-nav" style="display: none">
               {{> menu }}
             </ul>
