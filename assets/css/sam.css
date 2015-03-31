@@ -80,17 +80,21 @@ body{
     h5{
     	padding-left: 0px;
     }
+    .fix-header{
+      padding-right: 0px;
+
+    }
 
     .post-heading {
 
-         padding-left:0px;
-        padding-right:0px;
+      padding-left:0px;
+      padding-right:0px;
 
 		  margin-left: 6%;
 		  margin-right: 0;
     }
     .post-preview{
-    	padding-left:8%;
+    	padding-left:4.5%;
     	padding-right:0px;
     }
     .index-post-heading {
